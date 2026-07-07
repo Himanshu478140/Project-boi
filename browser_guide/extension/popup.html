@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      width: 200px;
+      padding: 10px;
+      font-family: sans-serif;
+      cursor: pointer;
+    }
+
+    h1 {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+
+    .status {
+      font-size: 12px;
+      color: #666;
+    }
+
+    #indicator {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: red;
+      margin-right: 5px;
+    }
+
+    .connected {
+      background: green !important;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Browser Guide</h1>
+  <div class="status">
+    <span id="indicator"></span> <span id="text">Disconnected</span>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

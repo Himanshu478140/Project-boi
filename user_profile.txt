@@ -1,0 +1,5 @@
+Name: Endministrator
+Role: Student
+Goal: building Ai assistant.
+Preferences: Likes concise answers. Dislikes flowery language.
+Session Goal: Debugging the Interruption logic.
